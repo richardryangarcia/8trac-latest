@@ -1,0 +1,42 @@
+.modal-background {
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba($menu-color, 1);
+  overflow: hidden;
+  opacity: 0;
+  height: 0vh;
+  transition: all 1s ease-in-out;
+
+  &.open {
+    opacity: 1;
+    height: 100vh;
+  }
+
+  .close-menu-btn {
+    margin-top: 0.85em;
+    margin-left: 1em;
+    border: none;
+    background-color: $menu-color;
+    color: $secondary;
+    outline: none;
+  }
+}
+
+.dropdown-menu {
+  &.show {
+    position: absolute;
+    right: 0;
+    left: auto;
+  }
+}
+
+.menu-toggle {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: $secondary;
+  outline: none;
+  border: none;
+}

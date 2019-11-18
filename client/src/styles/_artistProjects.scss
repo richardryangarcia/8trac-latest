@@ -1,0 +1,43 @@
+.artist-projects,
+.artist-merch {
+  margin-top: 6em;
+
+  .header {
+    font-weight: 400;
+  }
+  .balance {
+    font-size: 10px;
+    color: green;
+  }
+  .add-btn {
+    float: right;
+  }
+
+  .project-img {
+    height: 14em;
+  }
+
+  .card {
+    border: none;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .available {
+    color: green;
+  }
+  .unavailable {
+    color: red;
+  }
+
+  .contribute-form {
+    font-size: 12px;
+    label {
+      margin-bottom: 0em;
+    }
+    button {
+      float: right;
+      margin-top: 0.5em;
+    }
+  }
+}
